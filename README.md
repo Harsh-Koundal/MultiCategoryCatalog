@@ -1,12 +1,26 @@
-# React + Vite
+# Assignment README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a multi-category product catalog frontend built for the assignment.
 
-Currently, two official plugins are available:
+## Tools and Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19 (`react`, `react-dom`) for building the UI with reusable components
+- Vite 6 for development, build, and fast refresh
+- React Router DOM 7 for page navigation (catalog and product details)
+- Tailwind CSS 4 for utility-first styling
+- JavaScript (ES Modules) for application logic
+- ESLint 9 for code quality and consistency
 
-## Expanding the ESLint configuration
+## Time Taken
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The assignment took approximately **3-4 hours** to complete.
+
+## Idea and Approach
+
+The main idea was to create a clean and responsive product browsing experience with clear category-based navigation.
+I implemented the app using a component-based approach, splitting the UI into catalog components and product detail components, then connected pages with React Router.
+I also organized constants and utility logic separately for easier maintenance, and used Tailwind/CSS styling to keep the interface consistent and readable.
+
+## Notes
+
+The focus was on readability, basic functionality, and keeping the implementation straightforward.
